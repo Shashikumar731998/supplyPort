@@ -1,0 +1,58 @@
+.whitebg{
+    background-color: #FFF;
+}
+
+.place-outer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    padding: 20px;
+}    
+
+.place-outer p{
+    margin-bottom: 0;
+}
+
+.btn-cont{
+    text-align: right;
+}
+.btn-cont button{
+    margin : 0 10px;
+}
+.red-clr{
+    color: #F83434;
+}
+.due-notif{
+    background: #fef1f1;
+    border-radius: 7px;
+    display: inline-block;
+    font-size: 13px;
+    padding: 3px 7px;
+}
+.clr-btn {
+    background-color: #1d3754;
+    background-image: linear-gradient(to bottom, #1d3754 0%, #5f798f 100%);
+    border: none;
+    color: #FFF;
+}
+.transparent-btn{
+    background-color: transparent;
+    border: 1px solid #1d3754;
+    color: #1d3754;
+}
+.transparent-btn:hover{
+    border: 1px solid #1d3754;
+}
+
+@media only screen and (max-width:768px){
+    .place-outer{
+        grid-template-columns: 1fr;
+    }
+    .btn-cont{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .btn-cont button{
+        margin: 0 5px 0 0;
+    }
+}

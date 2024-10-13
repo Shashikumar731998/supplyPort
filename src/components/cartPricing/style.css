@@ -1,0 +1,44 @@
+.cart-pricing , .gst , .cart-total{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 15px;;
+}
+.white-card {
+    background: #fff;
+    /* padding: 22px; */
+    border-radius: 18px;
+  }
+.grey-p {
+    color: #667085;
+    font-size: 13px;
+}
+
+p.amt-saved {
+    text-align: center;
+    background: #f5f7fe;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+
+p.red-txt {
+    font-size: 13px;
+    color: #ef4958;
+    padding-top: 10px;
+}
+
+p.red-txt img{
+    margin-right: 3px;
+}
+
+.cart-price.white-card h5 {
+    font-size: 17px;
+}
+@media only screen and (min-width:769px){
+    .cart-pricing, .gst, .cart-total {
+        display: grid;
+        grid-template-columns: auto 90px;
+        margin-bottom: 15px;
+    }
+}

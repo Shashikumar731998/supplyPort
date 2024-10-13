@@ -1,0 +1,272 @@
+.category-section {
+  padding: 20px 0;
+}
+
+.filters-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.filters {
+  display: flex;
+  background: #FFF;
+  overflow-x: scroll;
+  justify-content: space-between;
+  padding: 14px 14px 18px 15px;
+  border-radius: 14px;
+}
+
+.filters::-webkit-scrollbar {
+  height: 8px;
+}
+
+.filters::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.filters::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 10px;
+}
+
+.filters::-webkit-scrollbar-thumb:hover {
+  background: #007bff;
+}
+
+.filters {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #007bff #f1f1f1; /* Firefox */
+}
+
+.filter-item {
+  flex: 0 0 auto;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.filter-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.filter-item.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.selected {
+  border-bottom: 2px solid #13375d; /* or any other style you prefer */
+}
+
+.products-filter {
+  display: grid;
+  grid-template-columns: 23% 76%;
+  background: #FFF;
+  margin-top: 20px;
+  padding: 25px;
+  padding-left: 0;
+  border-radius: 14px;
+  gap: 24px;
+}
+
+.filter-left {
+  flex: 1;
+  margin-right: 20px;
+  border-right: 1px solid #e1e3e2;
+}
+
+.filter-left ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.filter-left li {
+  padding: 10px;
+  margin: 8px 0;
+  transition: ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+.filter-left .left-selected-filter {
+  border-left: 3px solid #13375d;
+}
+
+.filter-right {
+  flex: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.product-list {
+  /* display: flex; */
+  /* overflow-x: auto; */
+  padding: 10px 0;
+  width: 100%;
+}
+
+.product-item {
+  text-align: left;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+  height: auto;
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 7.76px 50px 0px #E6EAEE99;
+  margin: 0 !important;
+    margin-bottom: 20px !important;
+    min-width: 275px;
+}
+h6.pd-price i {
+  font-size: 18px;
+  font-weight: 400;
+  padding-right: 3px;
+}
+
+del.pd-price-subtext {
+  color: #667085;
+  display: block;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #ddd;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.no-products {
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
+
+p.pd_name {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+p.pd_desc {
+  line-height: 23px;
+  color: #111111;
+  font-size: 17px;
+  font-weight: 500;
+  min-height: 50px;
+  
+}
+p.pd_variation {
+  color: #4087bb;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+p.pd_price {
+  margin: 8px 0px 10px 0px;
+  background: #93BBD5;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+}
+p.pd_per_price {
+  color: #778093;
+  font-size: 13px;
+}
+
+.product-item button {
+  width: 100%;
+  border: 1px solid #13375d;
+  color: #13375d;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 5px2px;
+}
+.comman-hadding {
+display: flex !IMPORTANT;
+justify-content: space-between !important;
+width: 100%;
+padding-bottom: 25px;
+padding-left: 15px;
+}
+.PuchaseMainDiv h3{
+  padding-left: 15px;
+}
+
+.comman-hadding a.view_all {
+display: block;
+width: 140px;
+cursor: pointer;
+}
+
+.comman-hadding h2 {
+width: 100%;
+color: #111111;
+font-size: 24px;
+font-weight: 600;
+}
+.Popular-items {
+  background: #FFFFFF;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 2px 5px 0px #26334D08;
+  padding: 10px;
+  margin-bottom: 25px;
+  height: calc(100% - 25px);
+  position: relative;
+}
+
+.Popular-items img {
+background: #ECF0FD80;
+margin: auto;
+border-radius: 12px;
+width: 100%;
+}
+.Popular-items:hover h6, .Popular-items:hover p{
+color:initial
+}
+
+.Popular-items h6 {
+  padding: 15px 0px 5px 0px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.cartTitel {
+  max-width: 25%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .filters {
+    overflow-x: scroll;
+    gap: 30px;
+  }
+  .filters div {
+    min-width: max-content;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .filter-right {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .filter-left ul {
+    padding-right: 0px;
+  }
+  .products-filter {
+    display: grid;
+    grid-template-columns: 24% 70%;
+  }
+  .filter-right {
+    grid-template-columns: 1fr;
+  }
+}

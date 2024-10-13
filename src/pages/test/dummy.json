@@ -1,0 +1,27 @@
+[
+    {
+      "ItemId": "101",
+      "ItemName": "Product 1",
+      "SalesPrice": "$100",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ItemId": "102",
+      "ItemName": "Product 2",
+      "SalesPrice": "$200",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ItemId": "103",
+      "ItemName": "Product 3",
+      "SalesPrice": "$300",
+      "ImageUrl": "https://via.placeholder.com/150"
+    },
+    {
+      "ItemId": "104",
+      "ItemName": "Product 4",
+      "SalesPrice": "$400",
+      "ImageUrl": "https://via.placeholder.com/150"
+    }
+  ]
+  

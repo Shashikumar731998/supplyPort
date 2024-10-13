@@ -1,0 +1,50 @@
+.main_banner img {
+    width: 80%;
+}
+.main_banner {
+    background: #dfebf2;
+}
+.banner-right {
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+}
+.banner-head , .banner-left p{
+    color: #13375d;
+}
+.banner-head span{
+    display: block;
+    color: #88bdd8;
+}
+.banner-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.product_item {
+    margin: 10px 0;
+}
+
+.product_item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 18px;
+}
+.product_item {
+    margin: 10px 0;
+    background: #FFF;
+    border-radius: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.product_item h6 {
+    margin: 20px 10px 10px 10px;
+    color: #000;
+}
+@media only screen and (max-width:768px){
+    
+    .banner-left {
+        text-align: center !important;
+        padding-top: 30px !important;
+    }
+}

@@ -1,0 +1,38 @@
+.cart-notification img{
+    border-radius: 100%;
+    width: 50px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.cart-notification h5 {
+    display: inline-block;
+}
+
+/* .cart-left {
+    width: 72%;
+} */
+
+.cart-notification {
+    background: #FFF;
+    padding: 9px 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.outer-lf {
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: auto 26%;
+}
+
+
+
+@media only screen and (max-width:991px){
+    .outer-lf {
+        grid-template-columns: 1fr;
+    }
+    /* .cart-left {
+        width: 100%;
+    } */
+}

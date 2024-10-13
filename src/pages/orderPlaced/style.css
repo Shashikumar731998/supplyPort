@@ -1,0 +1,26 @@
+p.dark-p {
+    color: #000;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+
+.grey {
+    color: #667085;
+}
+
+.right-add {
+    background: #FFF;
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:991px){
+    .order-grid{
+        gap:20px !important;
+    }   
+    .btn-cont button {
+        margin-bottom: 10px;
+    } 
+}
